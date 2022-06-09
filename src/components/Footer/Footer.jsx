@@ -5,7 +5,7 @@ import { IoLogoInstagram } from "react-icons/io";
 const FooterTag = styled.footer`
    {
     height: 10vh;
-    background-color: #000000;
+    background-color: #000001;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;

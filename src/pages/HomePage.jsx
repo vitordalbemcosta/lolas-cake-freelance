@@ -7,7 +7,7 @@ function HomePage() {
     return (
         <section className="sectionOneHome">
             <div className="hero-section">
-                <h1 id="titleOne"> Lolas Cake </h1>
+                <h1 id="titleOne"> Lolas Cake by Marcia </h1>
             </div>
         
         </section>
