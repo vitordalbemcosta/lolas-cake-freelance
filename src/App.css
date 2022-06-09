@@ -21,3 +21,7 @@
     text-shadow: 3px 4px #0a0a0a;
     opacity: 100;
 }
+.section-bg {
+    background-color: #FFEAEE;
+    height: 750px;
+}
