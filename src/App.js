@@ -1,9 +1,16 @@
 import React from "react";
-import "./App.css";
-import HomePage from "./pages/HomePage";
 import { Routes, Route } from "react-router-dom";
+
+
+// styles
+import "./App.css";
+
+// components
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+
+// pages
+import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ReviewsPage from "./pages/ReviewsPage";
 import ContactMePage from "./pages/ContactMePage";

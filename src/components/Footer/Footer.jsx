@@ -28,13 +28,17 @@ const FooterTag = styled.footer`
 function Footer() {
     return (
       <FooterTag>
-        <a href="https://wa.me/5551982779941" target="_blank" rel="noreferrer">
+        <a
+          href="https://wa.me/5551982779941"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <SiWhatsapp className="my-react-icons" />
         </a>
         <a
           href="https://www.instagram.com/lolascakemarcia/"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <IoLogoInstagram className="my-react-icons" />
         </a>
