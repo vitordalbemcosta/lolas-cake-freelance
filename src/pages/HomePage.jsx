@@ -1,19 +1,9 @@
-import React from "react";
-import ".././App.css"
-
-
+import React from 'react'
 
 function HomePage() {
-    return (
-        <section className="sectionOneHome">
-            <div className="hero-section">
-                <h1 id="titleOne"> Lolas </h1>
-            </div>
-        
-        </section>
-    );
+  return (
+    <div></div>
+  )
 }
 
-
-
-export default HomePage;
+export default HomePage

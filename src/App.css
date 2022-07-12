@@ -25,3 +25,9 @@
     background-color: #FFEAEE;
     height: 750px;
 }
+
+/* styling the images for the carousel */
+
+img {
+    height: 600px;
+}
