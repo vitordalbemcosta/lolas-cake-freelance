@@ -31,3 +31,25 @@
 img {
     height: 600px;
 }
+
+.section-carousel {
+    margin: 0 0 30px 0;
+}
+
+/* styling button */
+
+.button-card {
+    background-color: #fa5e76;
+    padding: 1;
+    border: none;
+    border-radius: 12px;
+    
+}
+.title-text-button {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}

@@ -1,13 +1,9 @@
+import React from 'react'
 
-
-
-
-
-
-
-function AboutPage() { 
-
-    
+function AboutPage() {
+  return (
+    <div>Sobre Lolas</div>
+  )
 }
 
-export default AboutPage;
+export default AboutPage
