@@ -12,12 +12,11 @@ function FigureAbout() {
       />
       <Card.Body>
         <div className="title-text-button">
-          <Card.Title>algum titulo aqui</Card.Title>
+          <Card.Title>Sobre Lolas</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Nossa historia e motivacoes 
           </Card.Text>
-          <Button className="button-card">Sobre nós</Button>
+          <Button className="button-card">Clique aqui para saber mais</Button>
         </div>
       </Card.Body>
     </Card>

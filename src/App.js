@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+// import { Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
@@ -14,11 +14,14 @@ import BsCarousel from "./components/Carousel/BsCarousel";
 import FigureAbout from "./components/Figure/Figure";
 
 
+// no pages for now. working on components first
 // pages
-import HomePage from "./pages/HomePage";
-import AboutPage from "./pages/AboutPage";
-import ReviewsPage from "./pages/ReviewsPage";
-import ContactMePage from "./pages/ContactMePage";
+// import HomePage from "./pages/HomePage";
+// import AboutPage from "./pages/AboutPage";
+// import ReviewsPage from "./pages/ReviewsPage";
+// import ContactMePage from "./pages/ContactMePage";
+
+
 
 function App() {
   return (
@@ -30,14 +33,6 @@ function App() {
         </div>
         <div className="section-about">
           <FigureAbout />
-        </div>
-        <div>
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/about" element={<AboutPage />} />
-            <Route path="/reviews" element={<ReviewsPage />} />
-            <Route path="/contact" element={<ContactMePage />} />
-          </Routes>
         </div>
       </div>
       <Footer />
